@@ -1,0 +1,16 @@
+com/example/minipro1/iaInfo.java
+ com.example.minipro1.iaInfo
+ com.example.minipro1.iaInfo$1
+ com.example.minipro1.iaInfo$2
+ com.example.minipro1.iaInfo$3
+com/example/minipro1/BuildConfig.java
+ com.example.minipro1.BuildConfig
+com/example/minipro1/studentapp.java
+ com.example.minipro1.studentapp
+com/example/minipro1/LoginActivity.java
+ com.example.minipro1.LoginActivity
+ com.example.minipro1.LoginActivity$1
+com/example/minipro1/MainActivity.java
+ com.example.minipro1.MainActivity
+com/example/minipro1/pseudologin.java
+ com.example.minipro1.pseudologin
