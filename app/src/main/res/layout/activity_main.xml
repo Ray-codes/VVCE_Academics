@@ -31,6 +31,7 @@
         android:ems="10"
         android:hint="USN@vvce.ac.in"
         android:inputType="textEmailAddress"
+        android:textColor="#000000"
         android:textColorHint="#1976D2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +47,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emaileditText" />
