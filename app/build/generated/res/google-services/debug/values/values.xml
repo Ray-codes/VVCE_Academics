@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">411405501578-qgigc39efb7h5f723e7ug98urodkofkv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">411405501578</string>
+    <string name="google_api_key" translatable="false">AIzaSyDR7oWjZBwtDfyWR0jl0OEY0rDKYD2nAT0</string>
+    <string name="google_app_id" translatable="false">1:411405501578:android:b50a6afe5485f9cd451973</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDR7oWjZBwtDfyWR0jl0OEY0rDKYD2nAT0</string>
+    <string name="google_storage_bucket" translatable="false">vvce-academics.appspot.com</string>
+    <string name="project_id" translatable="false">vvce-academics</string>
+</resources>

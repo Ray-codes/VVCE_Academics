@@ -1,90 +1,94 @@
 [
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_studentapp.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_studentapp.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.minipro1.app-main-26:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tt.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\drawable-v24\\tt.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_timetable.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\drawable-v24\\timetable.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.minipro1.app-main-26:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_calendar_of_events.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\calendar_of_events.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_ia_info.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_ia_info.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vvce_logo.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\drawable-v24\\vvce_logo.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ia_info.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\activity_ia_info.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-v24_vvce_logo.png.flat",
+        "source": "com.example.minipro1.app-main-26:/drawable-v24/vvce_logo.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_login.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_studentapp.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\activity_studentapp.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.minipro1.app-main-26:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.minipro1.app-main-26:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-v24_timetable.png.flat",
+        "source": "com.example.minipro1.app-main-26:/drawable-v24/timetable.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_main.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_pseudologin.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_pseudologin.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.minipro1.app-main-26:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_calendar_of_events.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_calendar_of_events.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pseudologin.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\src\\main\\res\\layout\\activity_pseudologin.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/layout_activity_gifk.xml.flat",
+        "source": "com.example.minipro1.app-main-26:/layout/activity_gifk.xml"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\mdray\\AndroidStudioProjects\\VVCE Academics\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-v24_tt.png.flat",
+        "source": "com.example.minipro1.app-main-26:/drawable-v24/tt.png"
+    },
+    {
+        "merged": "com.example.minipro1.app-merged_res-24:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.example.minipro1.app-pngs-19:/drawable-hdpi/ic_launcher_background.png"
     }
 ]

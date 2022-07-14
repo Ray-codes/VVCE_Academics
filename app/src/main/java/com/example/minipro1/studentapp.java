@@ -49,6 +49,15 @@ public class studentapp extends AppCompatActivity {
 
     }
 
+    public void calenderofevents(View view) {
+
+
+        Intent intent=new Intent(studentapp.this,CalendarOfEvents.class);
+        startActivity(intent);
+
+
+    }
+
     public void attendance(View V)
     {
         float a1 = Integer.parseInt(e1.getText().toString());

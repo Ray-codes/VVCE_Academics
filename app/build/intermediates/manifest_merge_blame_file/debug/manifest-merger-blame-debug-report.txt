@@ -10,48 +10,196 @@
 9        android:targetSdkVersion="30" />
 9-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:5:5-22:19
-12        android:allowBackup="true"
-12-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] C:\Users\mdray\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher_foreground"
-15-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:7:9-54
-16        android:label="@string/app_name"
-16-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:8:9-41
-17        android:supportsRtl="true"
-17-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:9:9-35
-18        android:testOnly="true"
-19        android:theme="@style/Theme.Minipro1" >
-19-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:10:9-46
-20        <activity android:name="com.example.minipro1.pseudologin" />
-20-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:11:9-58
-20-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:11:19-46
-21        <activity android:name="com.example.minipro1.iaInfo" />
-21-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:12:9-44
-21-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:12:19-41
-22        <activity android:name="com.example.minipro1.studentapp" />
-22-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:13:9-48
-22-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:13:19-45
-23        <activity android:name="com.example.minipro1.LoginActivity" />
-23-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:14:9-51
-23-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:14:19-48
-24        <activity android:name="com.example.minipro1.MainActivity" >
-24-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:15:9-21:20
-24-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:15:19-47
-25            <intent-filter>
-25-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:5:5-28:19
+17        android:allowBackup="true"
+17-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] C:\Users\mdray\.gradle\caches\transforms-3\0ebe70338f006a36b61119dbaa26715d\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher_foreground"
+20-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:7:9-54
+21        android:label="@string/app_name"
+21-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:8:9-41
+22        android:supportsRtl="true"
+22-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:9:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Minipro1" >
+24-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:10:9-46
+25        <activity
+25-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:11:9-13:40
+26            android:name="com.example.minipro1.gifk"
+26-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:12:13-33
+27            android:exported="false" />
+27-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:13:13-37
+28        <activity
+28-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:14:9-16:40
+29            android:name="com.example.minipro1.CalendarOfEvents"
+29-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:15:13-45
+30            android:exported="false" />
+30-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:16:13-37
+31        <activity android:name="com.example.minipro1.pseudologin" />
+31-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:17:9-49
+31-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:17:19-46
+32        <activity android:name="com.example.minipro1.iaInfo" />
+32-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:18:9-44
+32-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:18:19-41
+33        <activity android:name="com.example.minipro1.studentapp" />
+33-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:19:9-48
+33-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:19:19-45
+34        <activity android:name="com.example.minipro1.LoginActivity" />
+34-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:20:9-51
+34-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:20:19-48
+35        <activity android:name="com.example.minipro1.MainActivity" >
+35-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:21:9-27:20
+35-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:21:19-47
+36            <intent-filter>
+36-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:22:13-26:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:23:17-69
+37-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:25:17-77
+39-->C:\Users\mdray\AndroidStudioProjects\VVCE Academics\app\src\main\AndroidManifest.xml:25:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.5] C:\Users\mdray\.gradle\caches\transforms-3\bbdd36e21c04389b573c2b20342b8d58\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:67:13-69:85
+51                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+51-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:68:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:69:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\mdray\.gradle\caches\transforms-3\f65a45187f0392e60129102ecc715ea0\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+54                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+54-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\mdray\.gradle\caches\transforms-3\f65a45187f0392e60129102ecc715ea0\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\mdray\.gradle\caches\transforms-3\f65a45187f0392e60129102ecc715ea0\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+56        </service>
+57
+58        <activity
+58-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:27:9-44:20
+59            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+59-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:28:13-80
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:29:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:30:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:31:13-44
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+63-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:32:13-72
+64            <intent-filter>
+64-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:33:13-43:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+65-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+67-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+68-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+69
+70                <data
+70-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+71                    android:host="firebase.auth"
+71-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+72                    android:path="/"
+72-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+73                    android:scheme="genericidp" />
+73-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:45:9-62:20
+77            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+77-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:46:13-79
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:47:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:48:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:49:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:50:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:51:13-61:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:17-69
+83-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:34:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:17-76
+85-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:36:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:17-78
+86-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:37:27-75
+87
+88                <data
+88-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:39:17-42:51
+89                    android:host="firebase.auth"
+89-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:40:21-49
+90                    android:path="/"
+90-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:41:21-37
+91                    android:scheme="recaptcha" />
+91-->[com.google.firebase:firebase-auth:21.0.6] C:\Users\mdray\.gradle\caches\transforms-3\5c0ac625fc7941c49c04f6ee7a01427b\transformed\firebase-auth-21.0.6\AndroidManifest.xml:42:21-48
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mdray\.gradle\caches\transforms-3\ae2c843528e04ad00306c7b9fed17697\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mdray\.gradle\caches\transforms-3\ae2c843528e04ad00306c7b9fed17697\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mdray\.gradle\caches\transforms-3\ae2c843528e04ad00306c7b9fed17697\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mdray\.gradle\caches\transforms-3\ae2c843528e04ad00306c7b9fed17697\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+98
+99        <provider
+99-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+100            android:name="com.google.firebase.provider.FirebaseInitProvider"
+100-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+101            android:authorities="com.example.minipro1.firebaseinitprovider"
+101-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+103            android:exported="false"
+103-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+104            android:initOrder="100" />
+104-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mdray\.gradle\caches\transforms-3\14d14351fce4a892184adad096a44d4a\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+105
+106        <meta-data
+106-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mdray\.gradle\caches\transforms-3\1830de5adc06073edee24a9eaff06c9c\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+107            android:name="com.google.android.gms.version"
+107-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mdray\.gradle\caches\transforms-3\1830de5adc06073edee24a9eaff06c9c\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+108            android:value="@integer/google_play_services_version" />
+108-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mdray\.gradle\caches\transforms-3\1830de5adc06073edee24a9eaff06c9c\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+109    </application>
+110
+111</manifest>

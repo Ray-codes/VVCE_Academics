@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "411405501578",
+    "firebase_url": "https://vvce-academics-default-rtdb.firebaseio.com",
+    "project_id": "vvce-academics",
+    "storage_bucket": "vvce-academics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411405501578:android:b50a6afe5485f9cd451973",
+        "android_client_info": {
+          "package_name": "com.example.minipro1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411405501578-qgigc39efb7h5f723e7ug98urodkofkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR7oWjZBwtDfyWR0jl0OEY0rDKYD2nAT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411405501578-qgigc39efb7h5f723e7ug98urodkofkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,6 +2,7 @@ package com.example.minipro1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -202,7 +203,14 @@ public class iaInfo extends AppCompatActivity {
     private String getValue(String tag, Element element) {
         return element.getElementsByTagName(tag).item(0).getChildNodes().item(0).getNodeValue();
     }
+    public void fullu(View view) {
 
+
+        Intent intent=new Intent(iaInfo.this,gifk.class);
+        startActivity(intent);
+
+
+    }
     public void average(View V){
         float a1 = Integer.parseInt(eia1.getText().toString());
         float a2 = Integer.parseInt(eia2.getText().toString());

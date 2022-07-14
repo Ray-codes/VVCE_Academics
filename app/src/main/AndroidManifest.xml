@@ -8,7 +8,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Minipro1">
-        <activity android:name=".pseudologin"></activity>
+        <activity
+            android:name=".gifk"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarOfEvents"
+            android:exported="false" />
+        <activity android:name=".pseudologin" />
         <activity android:name=".iaInfo" />
         <activity android:name=".studentapp" />
         <activity android:name=".LoginActivity" />
